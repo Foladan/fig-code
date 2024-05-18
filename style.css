@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: 0;
+}
+body {
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+ul {
+    list-style: none;
+}
+.navbar {
+    background-color: #fff;
+    padding: 20px;
+}
+.navbar .main-menu {
+    display: flex;
+    margin-left: 15%;
+}
+.navbar .main-menu ul {
+    display: flex;
+}
+
+
+/* FORM */
+.form {
+    background-color: rgba(133, 8, 33, 0.877);
+    border-radius: 20px 0 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 150px;
+    margin-right: 20.9%;
+}
+.ff{
+    background-color: #464444e0;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+#dd {
+    padding: 20px;
+}
+
+.shoe-container2 {
+    background-color: #F19528;
+    width: 346px;
+    height: 350px;
+    border-radius: 0 20px 0 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0.1%;
+
+}
+.wine-shoe {
+    margin-top: -40px;
+    margin-left: -85px;
+    top: 0;
+    width: 500px;
+    height: 450px;
+}
+
+
+.second-container {
+    background-color: #d5d0d0;
+    border-radius: 0 20px 0 0;
+    width: 909px;
+    height: auto;
+    position: relative;
+}
+
+/* TEXT */
+#Original {
+    color: #F19528;
+}
+h1 {
+    padding: 70px 20px 0 30px;
+    font-size: 60px;
+}
+.first-paragraph {
+    padding: 0 0 0 30px;
+    margin-top: 0;
+    font-size: 13px;
+}
+h3 {
+    padding: 0 0 0 30px;
+    font-size: 30px;
+}
+#crossed {
+    text-decoration: line-through;
+    font-size: medium;
+    color: #777676;
+    padding: 0 0 0 20px;
+}
+
+
+/* Cart-section */
+.cart {
+    border: solid black;
+    width: 150px;
+    height: 50px;
+    margin: 20px 0 20px 20px;
+    padding: 10px 0 0 10px;
+}
+.shop-cart {
+    width: 25px;
+    margin: 0 0 0 20px;
+}
+
+.shoe-container1 {
+    background-color: darkslateblue;
+    height: 70px;
+    width: 100px;
+    border-radius: 0 20px 0 0;
+    margin: 0 0 0 40px;
+}
+.blue-shoe {
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+/* ARROWS */
+.arrow-L-R {
+    margin: 0 0 0 30%;
+}
+#right {
+    margin: 0 0 20px 30px;
+}
+.arrow-L {
+    margin: 0 0 0 30%;
+}
+
+
+/* Side-nav */
+.side-menu {
+    position: absolute;
+    margin: -29% 0 0 71%;
+    height: 400px;
+    width: 104px;
+}
+.side-menu2 {
+    background-color: white;
+    top: 0;
+    transform: rotate(90deg);
+}
+.side-menu2 a {
+    display: block;
+}
+.side-menu .menu2 ul {
+    display: flex;
+    padding-left: 150px;
+    
+}
